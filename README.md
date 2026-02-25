@@ -26,7 +26,7 @@ This improves temporal reasoning.
 pip install -r requirements.txt -f https://download.pytorch.org/whl/cu128
 pip install qwen-vl-utils
 
-# If you want use flash attention 2
+# If you want to use flash attention 2
 pip install flash-attn --no-build-isolation
 ```
 
