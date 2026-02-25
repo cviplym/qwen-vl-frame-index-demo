@@ -15,11 +15,11 @@ When multiple frames are given to VLMs:
 
 Insert explicit frame index text between images:
 
-<Frame 1>
-<Frame 2>
+&lt;Frame 1&gt;
+&lt;Frame 2&gt;
 ...
 
-This improves temporal reasoning.
+This improves temporal reasoning.&gt; 
 
 ## ⚙️ Environment
 ```bash
@@ -51,3 +51,13 @@ Several approaches were explored for improving temporal reasoning:
 Video mode showed frame merging behavior, while plain multi-image input weakened temporal consistency.
 
 This repository focuses on the frame-index approach because it provides a lightweight and practical improvement without modifying model architecture.
+
+## License
+
+This project is built upon **Qwen3-VL**, which is released under the
+Apache License, Version 2.0.
+
+Accordingly, this project is also distributed under the
+**Apache License, Version 2.0**.
+
+See the [LICENSE](./LICENSE) file for details.
