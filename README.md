@@ -16,10 +16,12 @@ When multiple frames are given to VLMs:
 Insert explicit frame index text between images:
 
 &lt;Frame 1&gt;
+
 &lt;Frame 2&gt;
+
 ...
 
-This improves temporal reasoning.&gt; 
+This improves temporal reasoning.
 
 ## ⚙️ Environment
 ```bash
